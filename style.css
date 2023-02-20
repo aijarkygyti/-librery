@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+nav {
+    border-top: 3px solid rgb(59, 126, 134);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid royalblue;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: navy;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.head_img {
+    width: 700px;
+}
+
+h2 {
+    color: rgb(14, 39, 85);
+    margin-left: 330px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.catalog a {
+    text-decoration: none;
+    color: rgb(36, 30, 30);
+    border-bottom: 2px dotted black;
+    font-size: 20px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+    width: 850px;
+    margin: 0 abto 0 auto ;
+    background-color: rgb(173, 169, 209);
+}
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double rgb(148, 187, 56);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: bisque;
+}
+
+.principles {
+    display: flex;
+    border-top: 5px solid navy;
+    border-bottom: 5px solid navy;
+    justify-content: space-between; 
+    width: 700px;
+    margin: 0 auto 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.principle {
+    width: 120px;
+}
+
+.slogan {
+    display: flex;
+    padding: 30px;
+    color: rgb(155, 155, 214);
+    margin-left: 150px;
+}
+
+.slogan_img {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.slogan_text {
+    float:left;
+    color: rgb(33, 33, 150);
+    margin: 20px;
+}
+
+footer {
+    background-color: rgb(200, 175, 238);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.head_img{
+    width: 100%;
+}
