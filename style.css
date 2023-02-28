@@ -47,13 +47,13 @@ h2 {
     display: flex;
     justify-content: space-around ;
     flex-wrap: wrap;
-    width: 100%;
+    width: 850px;
     margin: 0 abto 0 auto ;
     background-color: rgb(248, 247, 252);
 }
 
 .product {
-    width: 290px;
+    width: 310px;
     height: 266px;
     text-align: center;
     padding: 10px;
@@ -97,7 +97,7 @@ h2 {
 }
 
 footer {
-    background-color: rgb(221, 241, 237);
+    background-color: rgb(167, 167, 154);
     color: rgb(7, 7, 7);
     padding: 10px;
     font-size: 20px;
@@ -105,4 +105,32 @@ footer {
 
 .head_img{
     width: 100%;
+}
+
+.botry{
+    text-color: blanchedalmond;
+}
+
+a {
+    font-size: 25px;
+    margin: 25px;
+    color: rgb(88, 107, 165);
+}
+
+a:hover {
+    color: rgb(124, 95, 148);
+    background-color: lightblue;
+}
+
+a:focus {
+    background-color: rgb(140, 189, 140);
+    color: navy;
+}
+
+a:visited{
+    color: rgb(48, 46, 46);
+}
+
+h3{
+    color: rgb(42, 41, 46);
 }
